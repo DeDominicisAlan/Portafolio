@@ -1,30 +1,42 @@
 *{
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
-}
-
-body{
     margin: 0;
     padding: 0;
 }
 
+/* paleta:
+    color1: #c9182b
+    color2: #ffffff
+    color3: #000000
+    
+    paleta2:
+    color1: #FF2E63;
+    color2: #08D9D6;
+    color3: #EAEAEA;
+    color4: #252A34;
+    
+*/
+
 /* Header */
 
 header{
-    position: fixed;
+    right: 0;
     box-sizing: border-box;
-    background-color: black;
-    color: white;
     display: flex;
     justify-content: space-between;
-    padding: 0 40px;
     align-items: center;
+    padding: 0 80px;
     height: 10vh;
+    position: absolute;
     width: 100vw;
 }
 
+
+
 header h1{
     font-weight: 100;
+    color: #FF2E63;
 }
 
 .lista{
@@ -35,5 +47,61 @@ header h1{
 
 .lista-a{
     text-decoration: none;
-    color: white;
+    color: #08D9D6;
+}
+
+
+/* Main */
+
+#Inicio{
+    background-color: #EAEAEA;
+    height: 90vh;
+}
+
+#Perfil, #Proyectos, #Habilidades{
+    min-height: 100vh;   
+}
+
+#Perfil{
+    background-color: #000000;
+}
+
+#Proyectos{  
+    background-color: #303841;
+}
+
+#Habilidades{
+    background-color: #1a1f24;
+}
+
+#Contacto{
+    height: 90vh;
+    background-color: #111114;
+}
+
+/* Footer */	
+
+footer{
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #c9182b;
+    color: #ffffff;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    gap: 60px;
+}
+
+.footer-icono{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.fa-brands{
+    margin: 5px;
+    font-size: larger;
 }
