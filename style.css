@@ -1,0 +1,39 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+header{
+    position: fixed;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+}
+
+header h1{
+    font-weight: 100;
+}
+
+.lista{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.lista-a{
+    text-decoration: none;
+    color: white;
+}
