@@ -20,7 +20,7 @@ header{
 
 header i{
     font-size: 40px;
-    color: #FF4B5C;
+    color: #00ADB5;
 }
 
 .lista{
@@ -31,7 +31,7 @@ header i{
 
 .lista-a{
     text-decoration: none;
-    color: #FF4B5C;
+    color: #00ADB5;
     transition: 0.25s;
 }
 
@@ -52,7 +52,7 @@ header i{
 
 #titulo{
     font-size: 2rem;
-    color: #c9182b;
+    color: #00ADB5;
 }
 
 #subtitulo{
@@ -70,13 +70,13 @@ header i{
 }
 
 #Inicio #Programador{
-    color: #c9182b;
+    color: #00ADB5;
 }
 
 /* Perfil */
 
 #Perfil, #Proyectos, #Habilidades{
-    min-height: 105vh;   
+    min-height: 100vh;   
 }
 
 #Perfil{
@@ -105,7 +105,7 @@ header i{
 }
 
 #Perfil h3,#Perfil h2, #Perfil h4{
-    color: #c9182b;
+    color: #00ADB5;
     font-weight: 500;
 }
 
@@ -128,45 +128,98 @@ header i{
 }
 
 #Redes li a:hover{
-    color:#c9182b;
+    color:#DA0037;
 }
 
 /* Proyectos */
 
 #Proyectos{  
-    background-color: #000000;
+    background-color: #1A1A1B;
 }
 
 #proyectos-h2{
-    padding: 2rem ;
-    color:#c9182b;
+    padding: 1rem 2rem ;
     font-weight: 500;
+}
+
+#proyectos-h2{
+    color: #00ADB5;
     font-size: 3rem;
 }
 
 #proyectos-flex{
+    list-style: none;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    height: 80vh;
+    justify-content: center;
+    height: 90vh;
+    flex-flow: row wrap;
 }
 
 .proyectos-item{
-    height: 25rem;
-    width: 15rem;
+    margin: 0 1rem;
+    overflow: hidden;
+    height: 300px;
+    width: 270.094px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.452);
+    border-radius: 12px;
 }
 
 #Ejemplo1{
-    background-image: url();
+    background-image: url(img/P1.png);
 }
 
+#Ejemplo2{
+    background-image: url(img/P2.png);
+}
 
+#Ejemplo3{
+    background-image: url(img/P3.png);
+}
 
+#Ejemplo4{
+    background-image: url(img/P4.png);
+}
+
+.overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s;
+    background-color: #00ADB5;
+    color: #1A1A1B;
+    text-align: center;
+    padding: 5px;
+}
+
+.proyectos-item a{
+    text-decoration: none;
+}
+
+.overlay h2{
+    padding: 5px;
+}
+
+.overlay:hover {
+    opacity: 0.85;
+}
+
+.overlay p{
+    font-weight: 500;
+    color: #F4F4F4;
+}
 
 /* Habilidades */
 
 #Habilidades{
-    background-color: #181818;
+    background-color: #0a0a0a;
 }
 
 #Contacto{
