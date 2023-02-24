@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+    scroll-behavior: smooth;
 }
 
 /* Header */
@@ -297,8 +299,8 @@ footer{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #c9182b;
-    color: #ffffff;
+    background-color: #00ADB5;
+    color: #000000;
 }
 
 footer ul{
@@ -307,9 +309,21 @@ footer ul{
     gap: 60px;
 }
 
+footer{
+    font-size: 1.2rem;
+}
+
+footer a{
+    transition: 0.3s;
+}
+
+footer a:hover{
+    color: #F4F4F4;
+}
+
 .footer-icono{
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
 }
 
 .fa-brands{
