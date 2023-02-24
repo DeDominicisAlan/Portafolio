@@ -75,7 +75,7 @@ header i{
 
 /* Perfil */
 
-#Perfil, #Proyectos, #Habilidades{
+#Perfil{
     min-height: 100vh;   
 }
 
@@ -124,21 +124,22 @@ header i{
 #Redes li a{
     text-decoration: none;
     color: #F4F4F4;
-    transition: 0.25s;
+    transition: 0.3s;
 }
 
 #Redes li a:hover{
-    color:#DA0037;
+    color:#00ADB5;
 }
 
 /* Proyectos */
 
 #Proyectos{  
     background-color: #1A1A1B;
+    height: 80vh;
 }
 
 #proyectos-h2{
-    padding: 1rem 2rem ;
+    padding: 2rem 2rem 0 2rem;
     font-weight: 500;
 }
 
@@ -152,7 +153,7 @@ header i{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 90vh;
+    height: 70vh;
     flex-flow: row wrap;
 }
 
@@ -219,8 +220,70 @@ header i{
 /* Habilidades */
 
 #Habilidades{
-    background-color: #0a0a0a;
+    height: 100vh;
+    background-color: #000000;
 }
+
+#Habilidades-Titulo {
+    color: #00ADB5;
+    padding: 1rem 3rem;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+#Habilidades-Titulo, #Habilidades p{
+    padding: 1rem 3rem;
+    font-weight: 500;
+}
+
+#Habilidades p{
+    color: #F4F4F4;
+    font-size: 1.5rem;
+}
+
+#Habilidades a{
+    color: #F4F4F4;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#Habilidades a:hover{
+    color: #00ADB5;
+}
+
+#Habilidades ul{
+    height: 40vh;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#Habilidades li{
+    width: 10rem;
+    height: 15rem;
+    background-color: #1c1c20;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #F4F4F4;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+#Habilidades li img{
+    width: 6rem;
+}
+
+#Habilidades li:hover{
+    width: 11rem;
+    height: 16rem;
+    color: #00ADB5;
+}
+
+/* Contacto */
 
 #Contacto{
     height: 90vh;
